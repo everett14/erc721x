@@ -146,7 +146,7 @@ contract ERC721XTokenNFT is ERC721 {
     )
         public
     {
-        safeTransferFrom(_from, _to, _tokenId, "");
+        safeTransferFrom(_from, _to, _tokeupnId, "");
     }
 
     function safeTransferFrom(
